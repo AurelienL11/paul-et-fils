@@ -1,25 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paul et fils</title>
-</head>
-<body>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <img src="images/logo temporaire.png" alt="logo temp">
-        <nav>
-            <ul>
-              <li><a href="home.html">Accueil</a></li>
-              <li><a href="propos.html">A propos</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="conseils.html">Conseils</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        <div>
-            <p>Devis gratuit</p>
-        </div>
+      <img src="images/logo temporaire.png" alt="logo temp" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="home.html">Accueil</a></li>
+          <li><a href="propos.html">A propos</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="conseils.html">Conseils</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="devis">
+        <!-- class devis pour changer fond et couleur texte -->
+        <p>Devis gratuit</p>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="demenage">
+        <!-- class demenage img background -->
+        <div>
+          <h1>Déménager n'a jamais été aussi facile</h1>
+          <div class="appelez">
+            <p>APPELEZ-NOUS</p>
+            <p>01 23 45 67 89</p>
+          </div>
+          <div class="commencer">
+            <p>COMMENCER EN LIGNE</p>
+            <p>Devis gratuit en quelques secondes</p>
+          </div>
+        </div>
+      </section>
+      <section class="home-propos-demenage">
+        <div class="propos-demenage-gauche">
+          <h2>Paul et fils Déménagement</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            delectus officiis!
+          </p>
+          <a href="propos.html"
+            ><input type="submit" value="A propos de nous" class="bouton"
+          /></a>
+          <!-- bouton ammène a page a propos -->
+        </div>
+        <div class="propos-demenage-droite"></div>
+        <!-- image a droite -->
+      </section>
+      <section class="home-service-section">
+        <h2>Nos services</h2>
+        <div class="grid-container">
+          <!-- utilisation de grid pour section services -->
+          <div class="grid-item">
+            <img
+              src="images/2hommes-camionnette.webp"
+              alt="2hommes-camionnette"
+            />
+            <h3>Déménagement à proximité</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi ipsam earum sunt exercitationem.
+            </p>
+            <input type="submit" value="Lire plus" class="bouton-services" />
+          </div>
+          <div class="grid-item">
+            <img src="images/camionnette.webp" alt="camionnette" />
+            <h3>Déménagement longue distance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi ipsam earum sunt exercitationem.
+            </p>
+            <input type="submit" value="Lire plus" class="bouton-services" />
+          </div>
+          <div class="grid-item">
+            <img src="images/garage.webp" alt="garage" />
+            <h3>Services de stockage</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi ipsam earum sunt exercitationem.
+            </p>
+            <input type="submit" value="Lire plus" class="bouton-services" />
+          </div>
+          <div class="grid-item">
+            <img src="images/carton.webp" alt="carton" />
+            <h3>Emballer et déballer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi ipsam earum sunt exercitationem.
+            </p>
+            <input type="submit" value="Lire plus" class="bouton-services" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="background-service-confiance">
+          <h2>Un service de confiance</h2>
+          <div class="déménagement">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"
+              />
+            </svg>
+            <h3>Déménagement longue distance</h3>
+          </div>
+          <div class="div-assurance">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"
+              />
+            </svg>
+            <h3>Assurance sur vos biens</h3>
+          </div>
+          <div class="div-taux">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"
+              />
+            </svg>
+            <h3>95% de taux de recommendation</h3>
+          </div>
+        </div>
+      </section>
+      <section class="home-service-section-2">
+        <h2>Nos clients satisfaits</h2>
+        <p>« Je suis un témoignage. Cliquez ici pour me modifier et valoriser votre activité ».</p>
+        <p><strong>Marie Garnier</strong></p>
+        <div class="images-service-section">
+            <img src="images/logo-a+.JPG" alt="logo-a">
+            <img src="images/logo-golbal-moving.JPG" alt="logo-golbal-moving">
+            <img src="images/logo-american-moving.JPG" alt="logo-american-moving">
+            <img src="images/logo-california-bestmover.JPG" alt="logo-california-bestmover">
+            <img src="images/logo-movtop.JPG" alt="logo-movtop">
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

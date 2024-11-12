@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  list-style: none;  
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover{
+    color: #f06000;
+}
+
+.devis {
+    background-color: #f06000;
+    color: #000000;
+    text-align: center;
+    padding: 20px 40px;  
+}  
+

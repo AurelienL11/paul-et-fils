@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px; /*retire bordure blanche du haut*/
+}
+.grid-item {
+  min-width: 0;
+  min-height: 0;
+  background-color: white;
+}
+.grid-item h3,
+.grid-item p {
+  padding: 10px;
+}
+svg{
+    width: 8%; 
+}
